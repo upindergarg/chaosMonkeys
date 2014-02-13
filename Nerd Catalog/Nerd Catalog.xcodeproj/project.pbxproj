@@ -15,13 +15,13 @@
 		3D56106C18AD6B9300864C79 /* BNCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56106B18AD6B9300864C79 /* BNCAppDelegate.m */; };
 		3D56106F18AD6B9300864C79 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D56106D18AD6B9300864C79 /* Main_iPhone.storyboard */; };
 		3D56107218AD6B9300864C79 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D56107018AD6B9300864C79 /* Main_iPad.storyboard */; };
-		3D56107518AD6B9300864C79 /* BNCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56107418AD6B9300864C79 /* BNCViewController.m */; };
 		3D56107718AD6B9300864C79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D56107618AD6B9300864C79 /* Images.xcassets */; };
 		3D56107E18AD6B9300864C79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56107D18AD6B9300864C79 /* XCTest.framework */; };
 		3D56107F18AD6B9300864C79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56105B18AD6B9300864C79 /* Foundation.framework */; };
 		3D56108018AD6B9300864C79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56105F18AD6B9300864C79 /* UIKit.framework */; };
 		3D56108818AD6B9300864C79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D56108618AD6B9300864C79 /* InfoPlist.strings */; };
 		3D56108A18AD6B9300864C79 /* Nerd_CatalogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56108918AD6B9300864C79 /* Nerd_CatalogTests.m */; };
+		4243CD8118AD6C6B00E30E4A /* BNCCatalogCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4243CD8018AD6C6B00E30E4A /* BNCCatalogCVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +47,14 @@
 		3D56106B18AD6B9300864C79 /* BNCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCAppDelegate.m; sourceTree = "<group>"; };
 		3D56106E18AD6B9300864C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		3D56107118AD6B9300864C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		3D56107318AD6B9300864C79 /* BNCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCViewController.h; sourceTree = "<group>"; };
-		3D56107418AD6B9300864C79 /* BNCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCViewController.m; sourceTree = "<group>"; };
 		3D56107618AD6B9300864C79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3D56107C18AD6B9300864C79 /* Nerd CatalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nerd CatalogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D56107D18AD6B9300864C79 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3D56108518AD6B9300864C79 /* Nerd CatalogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nerd CatalogTests-Info.plist"; sourceTree = "<group>"; };
 		3D56108718AD6B9300864C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3D56108918AD6B9300864C79 /* Nerd_CatalogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nerd_CatalogTests.m; sourceTree = "<group>"; };
+		4243CD7F18AD6C6B00E30E4A /* BNCCatalogCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCCatalogCVC.h; path = ../BNCCatalogCVC.h; sourceTree = "<group>"; };
+		4243CD8018AD6C6B00E30E4A /* BNCCatalogCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCCatalogCVC.m; path = ../BNCCatalogCVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +118,8 @@
 				3D56106B18AD6B9300864C79 /* BNCAppDelegate.m */,
 				3D56106D18AD6B9300864C79 /* Main_iPhone.storyboard */,
 				3D56107018AD6B9300864C79 /* Main_iPad.storyboard */,
-				3D56107318AD6B9300864C79 /* BNCViewController.h */,
-				3D56107418AD6B9300864C79 /* BNCViewController.m */,
+				4243CD7F18AD6C6B00E30E4A /* BNCCatalogCVC.h */,
+				4243CD8018AD6C6B00E30E4A /* BNCCatalogCVC.m */,
 				3D56107618AD6B9300864C79 /* Images.xcassets */,
 				3D56106218AD6B9300864C79 /* Supporting Files */,
 			);
@@ -254,9 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4243CD8118AD6C6B00E30E4A /* BNCCatalogCVC.m in Sources */,
 				3D56106C18AD6B9300864C79 /* BNCAppDelegate.m in Sources */,
 				3D56106818AD6B9300864C79 /* main.m in Sources */,
-				3D56107518AD6B9300864C79 /* BNCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +475,7 @@
 				3D56108F18AD6B9300864C79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D56109018AD6B9300864C79 /* Build configuration list for PBXNativeTarget "Nerd CatalogTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				3D56109218AD6B9300864C79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
