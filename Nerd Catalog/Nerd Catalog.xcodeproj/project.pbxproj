@@ -39,6 +39,8 @@
 		3D56117C18AD98E400864C79 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56117318AD98E400864C79 /* UIRefreshControl+AFNetworking.m */; };
 		3D56117D18AD98E400864C79 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56117518AD98E400864C79 /* UIWebView+AFNetworking.m */; };
 		3D56118018AD98F800864C79 /* BNCCatalogStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56117F18AD98F800864C79 /* BNCCatalogStore.m */; };
+		3D56118518ADA11000864C79 /* BNCCatalogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56118218ADA11000864C79 /* BNCCatalogItem.m */; };
+		3D56118618ADA11000864C79 /* BNCOrderedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56118418ADA11000864C79 /* BNCOrderedItem.m */; };
 		4243CD8118AD6C6B00E30E4A /* BNCCatalogCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4243CD8018AD6C6B00E30E4A /* BNCCatalogCVC.m */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +111,10 @@
 		3D56117518AD98E400864C79 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		3D56117E18AD98F800864C79 /* BNCCatalogStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCCatalogStore.h; sourceTree = "<group>"; };
 		3D56117F18AD98F800864C79 /* BNCCatalogStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCCatalogStore.m; sourceTree = "<group>"; };
+		3D56118118ADA11000864C79 /* BNCCatalogItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCCatalogItem.h; sourceTree = "<group>"; };
+		3D56118218ADA11000864C79 /* BNCCatalogItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCCatalogItem.m; sourceTree = "<group>"; };
+		3D56118318ADA11000864C79 /* BNCOrderedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCOrderedItem.h; sourceTree = "<group>"; };
+		3D56118418ADA11000864C79 /* BNCOrderedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCOrderedItem.m; sourceTree = "<group>"; };
 		4243CD7F18AD6C6B00E30E4A /* BNCCatalogCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCCatalogCVC.h; path = ../BNCCatalogCVC.h; sourceTree = "<group>"; };
 		4243CD8018AD6C6B00E30E4A /* BNCCatalogCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCCatalogCVC.m; path = ../BNCCatalogCVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,6 +179,10 @@
 			isa = PBXGroup;
 			children = (
 				3D56117E18AD98F800864C79 /* BNCCatalogStore.h */,
+				3D56118118ADA11000864C79 /* BNCCatalogItem.h */,
+				3D56118218ADA11000864C79 /* BNCCatalogItem.m */,
+				3D56118318ADA11000864C79 /* BNCOrderedItem.h */,
+				3D56118418ADA11000864C79 /* BNCOrderedItem.m */,
 				3D56117F18AD98F800864C79 /* BNCCatalogStore.m */,
 				3D56106A18AD6B9300864C79 /* BNCAppDelegate.h */,
 				3D56106B18AD6B9300864C79 /* BNCAppDelegate.m */,
@@ -364,6 +374,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D56118618ADA11000864C79 /* BNCOrderedItem.m in Sources */,
+				3D56118518ADA11000864C79 /* BNCCatalogItem.m in Sources */,
 				3D56115B18AD98DD00864C79 /* AFHTTPRequestOperation.m in Sources */,
 				3D56117A18AD98E400864C79 /* UIImageView+AFNetworking.m in Sources */,
 				4243CD8118AD6C6B00E30E4A /* BNCCatalogCVC.m in Sources */,
