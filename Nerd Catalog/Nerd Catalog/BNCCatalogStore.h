@@ -10,4 +10,10 @@
 
 @interface BNCCatalogStore : NSObject
 
+-(id) getCatalog;
+
+-(id) getOrderStatus;
+
+-(id) getHistory;
+
 @end
